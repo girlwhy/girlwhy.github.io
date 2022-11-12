@@ -3,17 +3,16 @@
 <head>
   <title>When the fuck...?</title>
 </head>
-<!-- I don't know what the fuck I'm doing, so please bear with me at this time.-->
 
-<form id="scale">
-
-<!-- unit type -->
-  <label for="timeUnit">scale </label>
-  <select name=" " id="timeUnit">
-    <option value="na"> </option>
-    <option value="hrs">hours</option>
-    <option value="days">days</option>
-    <option value="wks">weeks</option>
-    <option value="mnths">months</option>
-    <option value="yrs">years</option>
-  </select>
+<form id="newDude">
+  <label for="fname">first name</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">last name</label>
+  <input type="text" id="lname" name="lname">
+  <label for="alias?">notable aliases?</label>
+  <input type="checkbox" id="yesAlias" name="alias?" onClick="yesAlias()">
+  <p id="inputAlias" style="display:none">
+    <label for="alias">input alias</label>
+    <input type="text" id="alias" name="alias">
+    <input type="submit" id="plusAlias" name="plusAlias" onClick="plusAlias()" value="+">
+  </p>
