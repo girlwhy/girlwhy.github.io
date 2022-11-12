@@ -1,4 +1,4 @@
-function yesAlias{
+function yesAlias(){
   alert("idk")
   var yes = document.getElementById("yesAlias");
   var aliasInput = document.getElemendById("inputAlias");
@@ -11,7 +11,7 @@ function yesAlias{
   }
 }
 
-function plusAlias{
+function plusAlias(){
   var node = document.getElementById("inputAlias");
   cloneNode(node);
 }
